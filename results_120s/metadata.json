@@ -1,0 +1,39 @@
+{
+  "platform": "Linux-4.4.0-19041-Microsoft-x86_64-with-glibc2.39",
+  "python": "3.12.3 (main, Jun 18 2025, 17:59:45) [GCC 13.3.0]",
+  "numpy": "2.5.3",
+  "instances": [
+    "100_5_v2.txt",
+    "100_10_v2.txt",
+    "200_5_v2.txt",
+    "200_10_v2.txt",
+    "300_5_v2.txt",
+    "300_10_v2.txt",
+    "400_5_v2.txt",
+    "400_10_v2.txt",
+    "500_5_v2.txt",
+    "500_10_v2.txt"
+  ],
+  "levels": [
+    1,
+    2,
+    4,
+    6,
+    8
+  ],
+  "budget_s": 120,
+  "repetitions": 5,
+  "seed": 20261007,
+  "energy": "not collected",
+  "params": {
+    "p": 1000,
+    "pe": 0.2,
+    "pm": 0.05,
+    "rhoe": 0.7
+  },
+  "differences": [
+    "Python mutation: per gene 0.05; C++ random mutant fraction and local search",
+    "Python restarts population halfway and uses shared pool as parent; C++ differs",
+    "Measurement compares existing implementations, not isolated language cost"
+  ]
+}
