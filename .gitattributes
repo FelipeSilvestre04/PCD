@@ -1,3 +1,7 @@
 *.sh text eol=lf
 *.py text eol=lf
+*.cpp text eol=lf
+*.h text eol=lf
 *.txt -text
+results_120s/** -text
+instances/** -text
